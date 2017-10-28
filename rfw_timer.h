@@ -62,9 +62,9 @@
 //------------------
 class RFWTimer {
 	private:
-		bool running; //is it running now? (false -> paused)
-		double base_time; //time of previous runs since last reset
-		double max_time;  //reference time  
+		bool running = false; //is it running now? (false -> paused)
+		double base_time = 0; //time of previous runs since last reset
+		double max_time = 0;  //reference time
 
 	#ifdef RFW_CLOCK 
 		double getUserTime();
