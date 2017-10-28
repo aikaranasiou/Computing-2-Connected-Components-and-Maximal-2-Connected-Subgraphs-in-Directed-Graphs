@@ -1,9 +1,9 @@
 # ##################################################################
-# 	Make file to Compute Two Vertex Strongly Connected Component   #	
+# 	Make file to Compute Two Edge Strongly Connected Component   #	
 ####################################################################
 #
-TARGET  = 2V-CHILP
-SOURCES = 2V-CHILP.cpp rfw_timer.cpp
+TARGET  = 2ECHILPSTAR
+SOURCES = 2ECHILPSTAR.cpp rfw_timer.cpp
 #
 GCC_NAME    = g++
 GCC_FLAGS   = -g -Wall -O3 -ansi -pedantic -fpermissive -std=c++11
