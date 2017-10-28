@@ -2,8 +2,8 @@
 # 	Make file to Compute Two Vertex Strongly Connected Component   #	
 ####################################################################
 #
-TARGET  = 2V-CHILP-STAR
-SOURCES = 2V-CHILP-STAR.cpp rfw_timer.cpp
+TARGET  = 2V-CHILP-DTD
+SOURCES = 2V-CHILP-DTD.cpp rfw_timer.cpp
 #
 GCC_NAME    = g++
 GCC_FLAGS   = -g -Wall -O3 -ansi -pedantic -fpermissive -std=c++11
